@@ -1,0 +1,6 @@
+<launch>
+    <rosparam command="load" file="$(find ur5e_real_moveit_config)/config/sensor_kinetic_pointcloud.yaml" />
+    <param name="octomap_frame" type="string" value="world" />
+    <param name="octomap_resolution" type="double" value="0.1" />
+    <param name="max_range" type="double" value="1.5" />
+</launch>
